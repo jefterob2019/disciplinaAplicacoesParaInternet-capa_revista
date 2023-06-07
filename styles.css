@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+
+.cover {
+    position: absolute;
+    height: 960px;
+    width: 800px;
+    height: 100%;
+    background-color: #0f2637;
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    overflow: hidden;
+}
+.text-titulo {
+    font-size: 33px;
+}
+.background-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('../imagens/crianca.jpg');
+    background-size: cover;
+    background-position: center;
+    opacity: 0.6;
+}
+
+.title {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-size: 125px;
+    font-weight: bold;
+}
+
+.date {
+    position: absolute;
+    top: 90px;
+    right: 20px;
+    font-size: 39px;
+}
+
+.sidebar {
+    position: absolute;
+    top: 50%;
+    left: 20px;
+    transform: translateY(-50%);
+    text-align: left;
+}
+
+.sidebar p {
+    margin-bottom: 10px;
+}
+
+.bottom {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    width: 200px;
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 10px;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0px;
+    left:25%;
+    transform: translateX(-50%);
+    text-align: center;
+    padding: 10px;
+    border: 1px solid white;
+    color: white;
+}
+
+
+
+.footer p {
+    display:inline-flex;
+    margin: 0 5px;
+}
